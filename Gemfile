@@ -8,13 +8,13 @@ gem 'rails', '3.0.1'
 gem 'mysql2'
 
 # Use unicorn as the web server
-# gem 'unicorn'
+gem 'unicorn'
 
 # Deploy with Capistrano
-# gem 'capistrano'
+gem 'capistrano'
 
 # To use debugger
-# gem 'ruby-debug'
+gem 'ruby-debug'
 
 # Bundle the extra gems:
 # gem 'bj'
@@ -25,6 +25,8 @@ gem 'mysql2'
 # Bundle gems for the local environment. Make sure to
 # put test-only gems in this group so their generators
 # and rake tasks are available in development mode:
-# group :development, :test do
-#   gem 'webrat'
-# end
+group :development , :test do
+  gem 'autotest'
+  gem 'rspec-rails', '>= 2.0.1'
+  gem 'webrat'
+end
