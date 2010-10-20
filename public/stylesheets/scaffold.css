@@ -1,35 +1,58 @@
-body { background-color: #fff; color: #333; }
-
-body, p, ol, ul, td {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mike\/Projects\/personal\/blog\/app\/sass\/scaffold\.sass}line{font-family:\000031}}
+body {
+  background-color: white;
+  color: #333333;
   font-family: verdana, arial, helvetica, sans-serif;
-  font-size:   13px;
+  font-size: 13px;
   line-height: 18px;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mike\/Projects\/personal\/blog\/app\/sass\/scaffold\.sass}line{font-family:\000038}}
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mike\/Projects\/personal\/blog\/app\/sass\/scaffold\.sass}line{font-family:\0000313}}
 pre {
-  background-color: #eee;
+  background-color: #eeeeee;
   padding: 10px;
   font-size: 11px;
 }
 
-a { color: #000; }
-a:visited { color: #666; }
-a:hover { color: #fff; background-color:#000; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mike\/Projects\/personal\/blog\/app\/sass\/scaffold\.sass}line{font-family:\0000318}}
+a {
+  color: black;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mike\/Projects\/personal\/blog\/app\/sass\/scaffold\.sass}line{font-family:\0000320}}
+a:visited {
+  color: #666666;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mike\/Projects\/personal\/blog\/app\/sass\/scaffold\.sass}line{font-family:\0000322}}
+a:hover {
+  color: white;
+  background-color: black;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mike\/Projects\/personal\/blog\/app\/sass\/scaffold\.sass}line{font-family:\0000327}}
 div.field, div.actions {
   margin-bottom: 10px;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mike\/Projects\/personal\/blog\/app\/sass\/scaffold\.sass}line{font-family:\0000330}}
 #notice {
   color: green;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mike\/Projects\/personal\/blog\/app\/sass\/scaffold\.sass}line{font-family:\0000333}}
 .field_with_errors {
   padding: 2px;
   background-color: red;
   display: table;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mike\/Projects\/personal\/blog\/app\/sass\/scaffold\.sass}line{font-family:\0000338}}
 #error_explanation {
   width: 450px;
   border: 2px solid red;
@@ -38,7 +61,7 @@ div.field, div.actions {
   margin-bottom: 20px;
   background-color: #f0f0f0;
 }
-
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mike\/Projects\/personal\/blog\/app\/sass\/scaffold\.sass}line{font-family:\0000345}}
 #error_explanation h2 {
   text-align: left;
   font-weight: bold;
@@ -46,10 +69,10 @@ div.field, div.actions {
   font-size: 12px;
   margin: -7px;
   margin-bottom: 0px;
-  background-color: #c00;
-  color: #fff;
+  background-color: #cc0000;
+  color: white;
 }
-
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mike\/Projects\/personal\/blog\/app\/sass\/scaffold\.sass}line{font-family:\0000354}}
 #error_explanation ul li {
   font-size: 12px;
   list-style: square;
