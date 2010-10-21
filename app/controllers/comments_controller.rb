@@ -1,4 +1,6 @@
 class CommentsController < ApplicationController
+  before_filter :authenticate_user!, :only => [:edit, :update, :destroy]
+
   # GET /comments
   # GET /comments.xml
   def index
@@ -40,7 +42,7 @@ class CommentsController < ApplicationController
   # POST /comments
   # POST /comments.xml
   def create
-    @comment = Comment.new(params[:comment])
+    @comment = Comment.new(params[:comment])]
 
     respond_to do |format|
       if @comment.save

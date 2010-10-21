@@ -16,6 +16,7 @@ gem 'capistrano'
 # To use debugger
 gem 'ruby-debug'
 
+gem 'devise', '~> 1.1.3' # authentication
 gem 'haml', '~> 3.0.21' # for SASS
 
 # Bundle the extra gems:

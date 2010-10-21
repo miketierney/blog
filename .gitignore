@@ -3,3 +3,5 @@ db/*.sqlite3
 log/*.log
 .DS_Store
 tmp/**/*
+config/app_config.yml
+config/initializers/devise.rb
